@@ -1,0 +1,369 @@
+body {
+    font-family: 'Lora', serif; 
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: #222;
+  }
+
+  h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: #444;
+  }
+  a{
+    text-decoration: dashed;
+        text-decoration: none;
+  }
+  .big{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    border: 0px solid green;
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 0.5fr 0.5fr 1.5fr 0.7fr;
+  }
+
+  
+  .bigbox1{
+    border: 0px solid black; 
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr;
+    background-color: #434242;
+  }
+
+
+  .box1{
+    border: 0px solid orangered; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dog1{
+    width: 60%;
+    height: 80%;
+    border: 0px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cat1{
+    width: 20%;
+    height: 30%;
+    border: 0px solid red;
+    position: relative;right: 47%;
+  }
+  .korzina{
+    width: 100%;
+    height: 100%;
+  }
+  .js1{
+    color: white;
+  }
+  .glav {
+    font-size: 1.5vw;
+    color: white;
+  }
+  .catalog {
+    font-size: 1.5vw;
+    color: white;
+  }
+
+  .comp {
+    font-size: 1.5vw;
+    color: white;
+  }
+
+  .delivery {
+    font-size: 1.5vw;
+    color: white;
+  }
+
+  .contact{
+    font-size: 1.5vw;
+    color: #EC8415;;
+  }
+
+
+
+
+  .bigbox2{
+    border: 0px solid black; 
+    display: grid;
+    grid-template-columns:1fr 1fr 3fr 1fr  ;
+    grid-template-rows:1fr;
+  }
+
+
+
+  .box2-1{
+    border: 0px solid orangered; 
+    display: grid;
+    grid-template-columns:1fr   ;
+    grid-template-rows: 2fr 1fr;
+  }
+  .dog2-1{
+    border: 0px solid orange; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .outcast{
+    font-size: 1vw;
+    color: #EC8415;
+    letter-spacing: 5px;
+  }
+  .out_foto{
+    width: 70%;
+    height: 100%;
+  }
+
+
+  .box2-2{
+    border: 1px solid black; 
+      display: grid;
+    grid-template-columns:1fr   ;
+    grid-template-rows: 2fr 1fr;
+    border-bottom:0 ;
+    border-top:0 ;
+    border-right:0 ;
+}
+.dog2-2{
+    border: 0px solid orange; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .soul_foto{
+    width: 100%;
+    height: 70%;
+  }
+.span{
+    color: black;
+    font-size: 0.7vw;
+    letter-spacing: 5px;
+}
+  .text1{
+    font-size: 0.8vw;
+    letter-spacing: 10px;
+    color: #2B71CD;
+  }
+
+
+  .box2-3{
+    border: 0px solid orangered; 
+    display: grid;
+    grid-template-columns:1fr  ;
+    grid-template-rows: 2fr 1fr;
+  }
+  .dog2-3{
+    border: 0px solid orange; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .t1{
+    font-size: 1.5vw;
+    letter-spacing: 10px;
+  }
+  .t2{
+    font-size: 1vw;
+    letter-spacing: 10px;
+    color: #2B71CD;
+  }
+
+  .box2-4{
+    border: 0px solid orangered; 
+    display: grid;
+    grid-template-columns:1fr  ;
+    grid-template-rows: 1fr ;
+  }
+  .dog2-4{
+    border: 0px solid orange; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .reg_foto{
+    width: 20%;
+    height:20%;
+  }
+.text3{
+  font-size: 1.5vw;
+}
+.text4{
+  font-size: 1.5vw;
+}
+
+
+
+
+ .bigbox3{
+    border: 2px solid orangered;
+ }
+ .bigbox4{
+    border: 0px solid black; 
+    display: grid;
+    grid-template-columns:1fr 1fr 3fr 1fr  ;
+    grid-template-rows:1fr;
+    background-color: black;
+  }
+  .dog6-1{
+    border: 0px solid orange; 
+    display: grid;
+    grid-template-columns:1fr   ;
+    grid-template-rows:0.5fr 1fr;
+    background-color: black;
+  }
+  .cat6-1{
+    border: 0px solid rgb(255, 0, 0); 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .cat6-2{
+    border: 0px solid rgb(255, 0, 0); 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .tg{
+    width: 100%;
+    height: 100%;
+  }
+  .t4{
+    font-size: 0.7vw;
+    color: white;
+  }
+  .text5{
+    font-size: 0.8vw;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+ 
+ @media(max-width:600px){
+    .glav{
+     font-size: 2vw;
+    }}
+    @media(max-width:600px){
+      .comp{
+       font-size: 2vw;
+      }}
+      @media(max-width:600px){
+        .text5{
+         font-size: 2vw;
+        }}
+      @media(max-width:600px){
+        .catalog{
+         font-size: 2vw;
+        }}
+        @media(max-width:600px){
+          .delivery{
+           font-size: 1.5vw;
+          }}
+          @media(max-width:600px){
+            .contact{
+             font-size: 2vw;
+            }}
+            @media(max-width:600px){
+              .outcast{
+               font-size: 2vw;
+              }}
+              @media(max-width:600px){
+                .text1{
+                 font-size: 1.5vw;
+                 margin-left: 5%;
+                 margin-top: -10%;
+                }}
+                @media(max-width:600px){
+                  .t1{
+                   font-size: 2.5vw;
+                   margin-top: 20%;
+                  }}
+                  @media(max-width:600px){
+                    .t3{
+                     font-size: 1.7vw;
+                    }}
+                  @media(max-width:600px){
+                    .text3{
+                     font-size: 2vw;
+                    }}
+                    @media(max-width:600px){
+                      .text4{
+                       font-size: 2vw;
+                      }}
+                  @media(max-width:600px){
+                    .span{
+                     font-size: 1vw;
+                     display: none;
+                    }}
+                    @media(max-width:600px){
+                      .t2{
+                       font-size: 1vw;
+                       display: none;
+                      }}
+                      @media(max-width:600px){
+                        .t4{
+                         display: none;
+                        }}
+@media(max-width:600px){
+    .korzina{
+        width: 72px;
+        height: 52px;
+       }}
+       @media(max-width:600px){
+        .tg{
+            width: 50%;
+            height: 50%;
+           }}
+       @media(max-width:600px){
+        .out_foto{
+            width: 72px;
+            height: 52px;
+           }}
+           @media(max-width:600px){
+            .reg_foto{
+                display: none;
+               }}
+           @media(max-width:600px){
+            .soul_foto{
+                width: 72px;
+                height: 42px;
+               }}
+       @media(max-width:600px){
+       .js1{
+    font-size: 2vw;
+    position: relative;top: 10%;right: 120%;
+       }}
+       @media(max-width:600px){
+        .big{
+          width: 100%;
+          height: 1000px;
+          background-color: white;
+          border: 0px solid green;
+          display: grid;
+          grid-template-columns:1fr ;
+          grid-template-rows: 0.1fr 0.1fr 1fr 0.4fr;
+        }}
